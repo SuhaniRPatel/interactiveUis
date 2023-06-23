@@ -27,7 +27,7 @@ struct ContentView: View {
                 .multilineTextAlignment(/*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 
             Button("Submit name!") {
-                textTitle = " Welcome, \(name)!"
+                textTitle = " Welcome person!!! \(name)!"
             }
             .font(/*@START_MENU_TOKEN@*/.title2/*@END_MENU_TOKEN@*/)
             .accentColor(/*@START_MENU_TOKEN@*/.purple/*@END_MENU_TOKEN@*/)
